@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b38dbfd3.css",
+    "main.js": "/static/js/main.fe25b2b6.js",
+    "static/js/787.e0751992.chunk.js": "/static/js/787.e0751992.chunk.js",
+    "static/media/PUNXSimon_flirty.png": "/static/media/PUNXSimon_flirty.1fe2fd99d760c02c5f24.png",
+    "static/media/hackfurs_blep.png": "/static/media/hackfurs_blep.b1771da935afbcdcfaae.png",
+    "static/media/rattykai_hello.png": "/static/media/rattykai_hello.1e292ef26de882b1a237.png",
+    "static/media/rattykai_flushed.png": "/static/media/rattykai_flushed.fa02f7b918587eebdd44.png",
+    "static/media/rattykai_hearteyes.png": "/static/media/rattykai_hearteyes.641eb3178fc1e5bc9d7f.png",
+    "static/media/circuit.png": "/static/media/circuit.0ad447949d0a8114f76a.png",
+    "index.html": "/index.html",
+    "main.b38dbfd3.css.map": "/static/css/main.b38dbfd3.css.map",
+    "main.fe25b2b6.js.map": "/static/js/main.fe25b2b6.js.map",
+    "787.e0751992.chunk.js.map": "/static/js/787.e0751992.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b38dbfd3.css",
+    "static/js/main.fe25b2b6.js"
+  ]
+}
