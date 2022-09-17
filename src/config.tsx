@@ -4,7 +4,8 @@ import rattykai_hello from "./mascots/rattykai_hello.png";
 import hackfurs_blep from "./mascots/hackfurs_blep.png";
 // import PUNXSimon_flirty from "./mascots/PUNXSimon_flirty.png";
 
-declare global { namespace JSX { interface IntrinsicElements { "ion-icon": any; } } }
+import ref from "./ref/astra_reference.png";
+import Ion from "./components/Ion";
 
 interface Link {
     icon: any;
@@ -31,37 +32,43 @@ export const config: Config = {
     subtitle: "Hi, I'm Astra! I make music and play games. (he/they)",
     links: [
         {
-            icon: <ion-icon name="logo-tiktok" size="large"></ion-icon>,
+            icon: <Ion name="image" />,
+            name: "Reference Sheet",
+            description: "The Bun!",
+            link: ref
+        },
+        {
+            icon: <Ion name="logo-tiktok" />,
             name: "TikTok",
             // description: "EGG bun makes short videos",
             link: "https://www.tiktok.com/@astra.bun/",
         },
         {
-            icon: <ion-icon name="logo-twitch" size="large"></ion-icon>,
+            icon: <Ion name="logo-twitch" />,
             name: "Twitch",
             // description: "Bun play game and stuff, but LIVE",
             link: "https://www.twitch.tv/astrabun",
         },
         {
-            icon: <ion-icon name="logo-discord" size="large"></ion-icon>,
+            icon: <Ion name="logo-discord" />,
             name: "Discord",
             // description: "",
             link: "https://joinmydiscord.astrabun.tv/",
         },
         {
-            icon: <ion-icon name="logo-twitter" size="large"></ion-icon>,
+            icon: <Ion name="logo-twitter" />,
             name: "Twitter",
             // description: "",
             link: "https://twitter.com/astra_bun",
         },
         {
-            icon: <ion-icon name="logo-youtube" size="large"></ion-icon>,
+            icon: <Ion name="logo-youtube" />,
             name: "YouTube",
             // description: "",
             link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
         },
         {
-            icon: <ion-icon name="logo-soundcloud" size="large"></ion-icon>,
+            icon: <Ion name="logo-soundcloud" />,
             name: "SoundCloud",
             // description: "",
             link: "https://soundcloud.com/astrabun",
