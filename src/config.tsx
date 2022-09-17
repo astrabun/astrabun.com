@@ -62,6 +62,11 @@ export const config: Config = {
             link: "https://twitter.com/astra_bun",
         },
         {
+            icon: <Ion name="logo-github" />,
+            name: "Github",
+            link: "https://github.com/astrabun",
+        },
+        {
             icon: <Ion name="logo-youtube" />,
             name: "YouTube",
             // description: "",
