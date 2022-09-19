@@ -50,6 +50,11 @@ export const config: Config = {
             link: "https://www.twitch.tv/astrabun",
         },
         {
+            icon: <Ion name="document-text" />,
+            name: "Blog",
+            link: "https://blog.astrabun.com"
+        },
+        {
             icon: <Ion name="logo-discord" />,
             name: "Discord",
             // description: "",
