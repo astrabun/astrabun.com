@@ -4,6 +4,7 @@ import rattykai_hello from "./mascots/rattykai_hello.png";
 import hackfurs_blep from "./mascots/hackfurs_blep.png";
 // import PUNXSimon_flirty from "./mascots/PUNXSimon_flirty.png";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import ref from "./ref/astra_reference.png";
 import Ion from "./components/Ion";
 
@@ -35,7 +36,8 @@ export const config: Config = {
             icon: <Ion name="image" />,
             name: "Reference Sheet",
             description: "The Bun!",
-            link: ref
+            // link: ref
+            link: "https://art.astrabun.com/characters/astra"
         },
         {
             icon: <Ion name="logo-tiktok" />,
