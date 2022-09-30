@@ -37,7 +37,7 @@ export const config: Config = {
             name: "Reference Sheet",
             description: "The Bun!",
             // link: ref
-            link: "https://art.astrabun.com/characters/astra"
+            link: "https://art.astrabun.com/characters/Astra"
         },
         {
             icon: <Ion name="logo-tiktok" />,
