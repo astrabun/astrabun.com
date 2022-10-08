@@ -13,6 +13,8 @@ interface Link {
     name: string;
     description?: string;
     link: string;
+    special?: string;
+    specialDetail?: string;
 }
 
 interface Mascot {
@@ -51,6 +53,9 @@ export const config: Config = {
             name: "TikTok",
             // description: "EGG bun makes short videos",
             link: "https://www.tiktok.com/@astra.bun/",
+            special: "tempWarning",
+            specialDetail: `TikTok has banned me without explanation and I am struggling to find a way to get my account back. Please stand by for updates. Main methods of reaching folks will be Twitter and Discord until I can get this sorted out.
+            `
         },
         {
             icon: <Ion name="logo-twitch" />,

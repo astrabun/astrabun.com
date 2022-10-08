@@ -15,14 +15,14 @@ function LinksFullList() {
             textDecoration: 'none'
           }}
         >
-          <StyledPaper elevation={1} style={{ marginBottom: "1em", padding: '0.5em' }}>
+          <StyledPaper elevation={1} style={{ marginBottom: "1em", padding: '0.5em', backgroundColor: l.special === "tempWarning" ? "red" : "" }}>
             <ListItem>
               <ListItemIcon>
                 {l.icon}
               </ListItemIcon>
               <ListItemText
                 primary={l.name}
-                secondary={l.description || ""}
+                secondary={l.specialDetail || l.description || ""}
               />
             </ListItem>
           </StyledPaper>
