@@ -16,7 +16,7 @@ function LinksHeader() {
                   style={{
                     textDecoration: 'none',
                   }}
-                  className={l.special==="tempWarning" ? "err" : ""}
+                  className={l.special==="tempWarning" ? "err" : l.special==="tempInfo" ? "errinfo" : ""}
                 >
                     {l.icon}
                 </Link>

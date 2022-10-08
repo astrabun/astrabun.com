@@ -15,7 +15,7 @@ function LinksFullList() {
             textDecoration: 'none'
           }}
         >
-          <StyledPaper elevation={1} style={{ marginBottom: "1em", padding: '0.5em', backgroundColor: l.special === "tempWarning" ? "red" : "" }}>
+          <StyledPaper elevation={1} style={{ marginBottom: "1em", padding: '0.5em', backgroundColor: l.special === "tempWarning" ? "red" : l.special === "tempInfo" ? "orange" : "" }}>
             <ListItem>
               <ListItemIcon>
                 {l.icon}
