@@ -54,12 +54,12 @@ export const config: Config = {
             // description: "EGG bun makes short videos",
             link: "https://www.tiktok.com/@astra.bun/",
             // link: "https://www.youtube.com/watch?v=k10sN1Yt3sg", // temp, while banned
-            special: "tempInfo",
-            specialDetail: `UPDATE 02: My account seems to be back. Check my YouTube link below for a deeper dive. I might write a blog post about it too, not sure yet. I'll remove this long message once it's been back online for a bit. 
-            UPDATE 01 (2022-10-08 12:45 AM ET): Click this message to view a YouTube video where I talk a little bit about this happening.(Link now reset to TikTok link)
-            Original Message: 
-            TikTok has banned me without explanation and I am struggling to find a way to get my account back. Please stand by for updates. Main methods of reaching folks will be Twitter and Discord until I can get this sorted out.
-            `
+            // special: "tempInfo",
+            // specialDetail: `UPDATE 02: My account seems to be back. Check my YouTube link below for a deeper dive. I might write a blog post about it too, not sure yet. I'll remove this long message once it's been back online for a bit. 
+            // UPDATE 01 (2022-10-08 12:45 AM ET): Click this message to view a YouTube video where I talk a little bit about this happening.(Link now reset to TikTok link)
+            // Original Message: 
+            // TikTok has banned me without explanation and I am struggling to find a way to get my account back. Please stand by for updates. Main methods of reaching folks will be Twitter and Discord until I can get this sorted out.
+            // `
             // specialDetail: `UPDATE 01 (2022-10-08 12:45 AM ET): Click this message to view a YouTube video where I talk a little bit about this happening.
             // Original Message: 
             // TikTok has banned me without explanation and I am struggling to find a way to get my account back. Please stand by for updates. Main methods of reaching folks will be Twitter and Discord until I can get this sorted out.
