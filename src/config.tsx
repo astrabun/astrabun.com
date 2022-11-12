@@ -97,7 +97,8 @@ export const config: Config = {
             icon: <Ion name="logo-youtube" />,
             name: "YouTube",
             // description: "",
-            link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
+            //link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
+            link: "https://youtube.com/@AstraBun",
         },
         {
             icon: <Ion name="logo-soundcloud" />,
