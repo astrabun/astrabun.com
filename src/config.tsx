@@ -34,13 +34,13 @@ export const config: Config = {
     title: "Astra",
     subtitle: "Hi, I'm Astra! I make music and play games. (he/they)",
     links: [
-        {
-            icon: <Ion name="caret-forward-circle" />,
-            name: "NEW: Progressive Muscle Relaxation Video",
-            description: "Since you all seem to like the hypno-eyes and my voice on Twitch, have some \"diet hypno\"!",
-            // link: ref
-            link: "https://go.astrabun.com/pmr"
-        }, // FIXME: TEMPORARY, REMOVE ABOVE AFTER VIDEO HAS BEEN UP FOR A LITTLE
+        //{
+        //    icon: <Ion name="caret-forward-circle" />,
+        //    name: "NEW: Progressive Muscle Relaxation Video",
+        //    description: "Since you all seem to like the hypno-eyes and my voice on Twitch, have some \"diet hypno\"!",
+        //    // link: ref
+        //    link: "https://go.astrabun.com/pmr"
+        //}, // FIXME: TEMPORARY, REMOVE ABOVE AFTER VIDEO HAS BEEN UP FOR A LITTLE
         {
             icon: <Ion name="image" />,
             name: "Reference Sheet",
