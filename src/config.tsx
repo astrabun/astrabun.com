@@ -8,6 +8,8 @@ import hackfurs_blep from "./mascots/hackfurs_blep.png";
 import ref from "./ref/astra_reference.png";
 import Ion from "./components/Ion";
 
+import KeyboardIcon from '@mui/icons-material/Keyboard';
+
 interface Link {
     icon: any;
     name: string;
@@ -72,6 +74,36 @@ export const config: Config = {
             link: "https://www.twitch.tv/astrabun",
         },
         {
+            icon: <Ion name="logo-youtube" />,
+            name: "YouTube",
+            // description: "",
+            //link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
+            link: "https://youtube.com/@AstraBun",
+        },
+        {
+            icon: <Ion name="logo-twitter" />,
+            name: "Twitter",
+            // description: "",
+            link: "https://twitter.com/astra_bun",
+        },
+        {
+            icon: <KeyboardIcon />,
+            name: "Monkeytype",
+            description: "Bnunny type fast",
+            link: "https://monkeytype.com/profile/astrabun",
+        },
+        {
+            icon: <Ion name="logo-github" />,
+            name: "Github",
+            link: "https://github.com/astrabun",
+        },
+        {
+            icon: <Ion name="logo-soundcloud" />,
+            name: "SoundCloud",
+            // description: "",
+            link: "https://soundcloud.com/astrabun",
+        },
+        {
             icon: <Ion name="document-text" />,
             name: "Blog",
             link: "https://blog.astrabun.com"
@@ -81,30 +113,6 @@ export const config: Config = {
             name: "Discord",
             // description: "",
             link: "https://joinmydiscord.astrabun.tv/",
-        },
-        {
-            icon: <Ion name="logo-twitter" />,
-            name: "Twitter",
-            // description: "",
-            link: "https://twitter.com/astra_bun",
-        },
-        {
-            icon: <Ion name="logo-github" />,
-            name: "Github",
-            link: "https://github.com/astrabun",
-        },
-        {
-            icon: <Ion name="logo-youtube" />,
-            name: "YouTube",
-            // description: "",
-            //link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
-            link: "https://youtube.com/@AstraBun",
-        },
-        {
-            icon: <Ion name="logo-soundcloud" />,
-            name: "SoundCloud",
-            // description: "",
-            link: "https://soundcloud.com/astrabun",
         },
     ],
     mascots: [
