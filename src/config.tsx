@@ -76,9 +76,21 @@ export const config: Config = {
         {
             icon: <Ion name="logo-youtube" />,
             name: "YouTube",
-            // description: "",
+            description: "Main Channel",
             //link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
             link: "https://youtube.com/@AstraBun",
+        },
+        {
+            icon: <Ion name="logo-youtube" />,
+            name: "VODs/Highlights/Clips Channel",
+            description: "Secondary YouTube Channel",
+            link: "https://youtube.com/@AstraBun2",
+        },
+        {
+            icon: <Ion name="logo-youtube" />,
+            name: "TikTok Archive Channel",
+            description: "Tertiary YouTube Channel (Just In Case TikTok Explodes)",
+            link: "https://youtube.com/@AstraBun3",
         },
         {
             icon: <Ion name="logo-twitter" />,
