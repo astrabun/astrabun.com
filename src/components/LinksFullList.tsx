@@ -10,7 +10,7 @@ function LinksFullList() {
         <Link
           href={l.link}
           target="_blank"
-          rel="noreferrer"
+          rel={l.customRel || "noreferrer"}
           style={{
             textDecoration: 'none'
           }}
