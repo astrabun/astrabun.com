@@ -17,6 +17,7 @@ interface Link {
     link: string;
     special?: string;
     specialDetail?: string;
+    customRel?: string;
 }
 
 interface Mascot {
@@ -91,6 +92,13 @@ export const config: Config = {
             name: "TikTok Archive Channel",
             description: "Tertiary YouTube Channel (Just In Case TikTok Explodes)",
             link: "https://youtube.com/@AstraBun3",
+        },
+        {
+            icon: <Ion name="logo-mastodon" />,
+            name: "Mastodon",
+            // description: "",
+            link: "https://yiff.life/@astra",
+            customRel: "me",
         },
         {
             icon: <Ion name="logo-twitter" />,
