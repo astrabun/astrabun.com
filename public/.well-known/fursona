@@ -1,0 +1,23 @@
+{
+    "sonas": [
+        {
+            "name": "Astra",
+            "pronouns": "He/Him or They/Them",
+            "gender": "Nonbinary",
+            "species": "Rabbit",
+            "description": "A blue rabbit with blue and green hair who likes to game and code!",
+            "ref": "https://art.astrabun.com/characters/Astra",
+            "avatar": "https://firebasestorage.googleapis.com/v0/b/art-astrabun-com.appspot.com/o/art%2Ffe25a40a-470d-4aac-bd90-2462f5634f6b.png?alt=media&token=92ca037a-2075-4a32-b5af-1a514cc1abe0",
+            "age": 26,
+            "birthdate": "1997-05-04T00:00:00-05:00",
+            "colors": [
+                "#34609f",
+                "#bbe1ff",
+                "#f9b0d8",
+                "#1c54b1",
+                "#132e47",
+                "#6df0c9"
+            ]
+        }
+    ]
+}
