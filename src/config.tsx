@@ -96,8 +96,9 @@ export const config: Config = {
         {
             icon: <Ion name="logo-mastodon" />,
             name: "Mastodon",
-            // description: "",
-            link: "https://yiff.life/@astra",
+            description: "Previously: @astra@yiff.life; migrated 2023-07-13 to mastodon.social",
+            // link: "https://yiff.life/@astra",
+            link: "https://mastodon.social/@astrabun",
             customRel: "me",
         },
         {
