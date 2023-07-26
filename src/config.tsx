@@ -52,6 +52,21 @@ export const config: Config = {
             link: "https://art.astrabun.com/characters/Astra"
         },
         {
+            icon: <Ion name="logo-mastodon" />,
+            name: "Mastodon",
+            description: "Previously: @astra@yiff.life; migrated 2023-07-13 briefly to @astrabun@mastodon.social, then stood up my own instance in the fediverse :3c",
+            // link: "https://yiff.life/@astra",
+            // link: "https://mastodon.social/@astrabun",
+            link: "https://bnuy.zone/@astra",
+            customRel: "me",
+        },
+        {
+            icon: <Ion name="logo-twitch" />,
+            name: "Twitch",
+            // description: "Bun play game and stuff, but LIVE",
+            link: "https://www.twitch.tv/astrabun",
+        },
+        {
             icon: <Ion name="logo-tiktok" />,
             name: "TikTok",
             // description: "EGG bun makes short videos",
@@ -69,17 +84,33 @@ export const config: Config = {
             // `
         },
         {
-            icon: <Ion name="logo-twitch" />,
-            name: "Twitch",
-            // description: "Bun play game and stuff, but LIVE",
-            link: "https://www.twitch.tv/astrabun",
-        },
-        {
             icon: <Ion name="logo-youtube" />,
             name: "YouTube",
             description: "Main Channel",
             //link: "https://www.youtube.com/channel/UCJLY1mZasM0fUSHGnuJpPfQ",
             link: "https://youtube.com/@AstraBun",
+        },
+        {
+            icon: <KeyboardIcon />,
+            name: "Monkeytype",
+            description: "Bnunny type fast",
+            link: "https://monkeytype.com/profile/astrabun",
+        },
+        {
+            icon: <Ion name="logo-github" />,
+            name: "Github",
+            link: "https://github.com/astrabun",
+        },
+        {
+            icon: <Ion name="document-text" />,
+            name: "Blog",
+            link: "https://blog.astrabun.com"
+        },
+        {
+            icon: <Ion name="logo-discord" />,
+            name: "Discord",
+            // description: "",
+            link: "https://joinmydiscord.astrabun.tv/",
         },
         {
             icon: <Ion name="logo-youtube" />,
@@ -94,47 +125,16 @@ export const config: Config = {
             link: "https://youtube.com/@AstraBun3",
         },
         {
-            icon: <Ion name="logo-mastodon" />,
-            name: "Mastodon",
-            description: "Previously: @astra@yiff.life; migrated 2023-07-13 briefly to @astrabun@mastodon.social, then stood up my own instance in the fediverse :3c",
-            // link: "https://yiff.life/@astra",
-            // link: "https://mastodon.social/@astrabun",
-            link: "https://bnuy.zone/@astra",
-            customRel: "me",
-        },
-        {
-            icon: <Ion name="logo-twitter" />,
-            name: "Twitter",
-            // description: "",
-            link: "https://twitter.com/astra_bun",
-        },
-        {
-            icon: <KeyboardIcon />,
-            name: "Monkeytype",
-            description: "Bnunny type fast",
-            link: "https://monkeytype.com/profile/astrabun",
-        },
-        {
-            icon: <Ion name="logo-github" />,
-            name: "Github",
-            link: "https://github.com/astrabun",
-        },
-        {
             icon: <Ion name="logo-soundcloud" />,
             name: "SoundCloud",
             // description: "",
             link: "https://soundcloud.com/astrabun",
         },
         {
-            icon: <Ion name="document-text" />,
-            name: "Blog",
-            link: "https://blog.astrabun.com"
-        },
-        {
-            icon: <Ion name="logo-discord" />,
-            name: "Discord",
-            // description: "",
-            link: "https://joinmydiscord.astrabun.tv/",
+            icon: <Ion name="logo-twitter" />,
+            name: "Stinky Bad Elon Hellsite X",
+            description: "The site formerly known as Twitter",
+            link: "https://twitter.com/astra_bun",
         },
     ],
     mascots: [
