@@ -62,7 +62,8 @@ export const config: Config = {
         },
         {
             name: "Bluesky",
-            link: "https://bsky.app/profile/astrabun.bsky.social",
+            link: "https://bsky.app/profile/astra.bunnys.ky",
+            description: "Formerly https://bsky.app/profile/astrabun.bsky.social (changed to custom domain handle)",
             icon: <>🟦</>,
         },
         {
