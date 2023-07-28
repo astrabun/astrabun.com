@@ -61,6 +61,11 @@ export const config: Config = {
             customRel: "me",
         },
         {
+            name: "Bluesky",
+            link: "https://bsky.app/profile/astrabun.bsky.social",
+            icon: <>🟦</>,
+        },
+        {
             icon: <Ion name="logo-twitch" />,
             name: "Twitch",
             // description: "Bun play game and stuff, but LIVE",
