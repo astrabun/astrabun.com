@@ -1,0 +1,26 @@
+#root {
+  /* background: #012e56; */
+  /* background-blend-mode: multiply; */
+  /* height: 130vh; */
+  background: #001120;
+}
+
+body {
+  height: 100vh;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.err {
+  color: red !important;
+}
+
+.errinfo {
+  color: orange !important;
+}
