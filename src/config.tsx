@@ -54,7 +54,7 @@ export const config: Config = {
         {
             icon: <Ion name="logo-mastodon" />,
             name: "Mastodon",
-            description: "Previously: @astra@yiff.life; migrated 2023-07-13 briefly to @astrabun@mastodon.social, then stood up my own instance in the fediverse :3c",
+            // description: "Previously: @astra@yiff.life; migrated 2023-07-13 briefly to @astrabun@mastodon.social, then stood up my own instance in the fediverse :3c",
             // link: "https://yiff.life/@astra",
             // link: "https://mastodon.social/@astrabun",
             link: "https://bnuy.zone/@astra",
@@ -64,7 +64,7 @@ export const config: Config = {
             name: "Bluesky",
             link: "https://bsky.app/profile/astra.bunnys.ky",
             // description: "Formerly https://bsky.app/profile/astrabun.bsky.social (changed to custom domain handle)",
-            description: "Formerly astrabun.bsky.social (changed to custom domain handle)",
+            // description: "Formerly astrabun.bsky.social (changed to custom domain handle)",
             icon: <>🟦</>,
         },
         {
