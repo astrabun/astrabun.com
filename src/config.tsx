@@ -65,7 +65,8 @@ export const config: Config = {
             link: "https://bsky.app/profile/astra.bunnys.ky",
             // description: "Formerly https://bsky.app/profile/astrabun.bsky.social (changed to custom domain handle)",
             // description: "Formerly astrabun.bsky.social (changed to custom domain handle)",
-            icon: <>🟦</>,
+            // icon: <>🟦</>,
+            icon: <Ion name="cloud" />,
         },
         {
             icon: <Ion name="logo-twitch" />,
