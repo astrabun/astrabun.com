@@ -55,6 +55,7 @@ export const config: Config = {
             icon: <Ion name="logo-mastodon" />,
             name: "Mastodon",
             // description: "Previously: @astra@yiff.life; migrated 2023-07-13 briefly to @astrabun@mastodon.social, then stood up my own instance in the fediverse :3c",
+            description: "Technically.... It's Iceshrimp",
             // link: "https://yiff.life/@astra",
             // link: "https://mastodon.social/@astrabun",
             link: "https://bnuy.zone/@astra",
@@ -63,21 +64,28 @@ export const config: Config = {
         {
             name: "Bluesky",
             link: "https://bsky.app/profile/astra.bunnys.ky",
+            description: "Where I Post My Skeets",
             // description: "Formerly https://bsky.app/profile/astrabun.bsky.social (changed to custom domain handle)",
             // description: "Formerly astrabun.bsky.social (changed to custom domain handle)",
             // icon: <>🟦</>,
             icon: <Ion name="cloud" />,
         },
         {
+            name: "Photography",
+            link: "https://photography.astrabun.com",
+            description: "Photos taken on Canon EOS R7",
+            icon: <Ion name="camera" />,
+        },
+        {
             icon: <Ion name="logo-twitch" />,
             name: "Twitch",
-            // description: "Bun play game and stuff, but LIVE",
+            description: "Bun play game and stuff",
             link: "https://www.twitch.tv/astrabun",
         },
         {
             icon: <Ion name="logo-tiktok" />,
             name: "TikTok",
-            // description: "EGG bun makes short videos",
+            description: "Short videos for short attention spans",
             link: "https://www.tiktok.com/@astra.bun/",
             // link: "https://www.youtube.com/watch?v=k10sN1Yt3sg", // temp, while banned
             // special: "tempInfo",
@@ -107,17 +115,19 @@ export const config: Config = {
         {
             icon: <Ion name="logo-github" />,
             name: "Github",
+            description: "if(astra.isBun()) { say('EGG') }",
             link: "https://github.com/astrabun",
         },
         {
             icon: <Ion name="document-text" />,
             name: "Blog",
+            description: "TOTALLY going to remember to post to this... TOTALLY...",
             link: "https://blog.astrabun.com"
         },
         {
             icon: <Ion name="logo-discord" />,
             name: "Discord",
-            // description: "",
+            description: "Share your memes and hang out!",
             link: "https://joinmydiscord.astrabun.tv/",
         },
         {
@@ -135,7 +145,7 @@ export const config: Config = {
         {
             icon: <Ion name="logo-soundcloud" />,
             name: "SoundCloud",
-            // description: "",
+            description: "Not posting often, but I do have one!",
             link: "https://soundcloud.com/astrabun",
         },
         {
