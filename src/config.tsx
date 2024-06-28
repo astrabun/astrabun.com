@@ -45,6 +45,13 @@ export const config: Config = {
         //    link: "https://go.astrabun.com/pmr"
         //}, // FIXME: TEMPORARY, REMOVE ABOVE AFTER VIDEO HAS BEEN UP FOR A LITTLE
         {
+            icon: <Ion name="map" />,
+            name: "[ANTHROCON 2024] Find My Astra",
+            description: "Lil web app to get an idea of where I am if you're looking for me! (valid only while at AC2024)",
+            // link: ref
+            link: "https://anthrocon.astrabun.com/"
+        },
+        {
             icon: <Ion name="image" />,
             name: "Reference Sheet",
             description: "The Bun!",
