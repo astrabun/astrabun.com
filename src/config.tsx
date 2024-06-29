@@ -35,7 +35,7 @@ interface Config {
 
 export const config: Config = {
     title: "Astra",
-    subtitle: "Hi, I'm Astra! I make music and play games. (he/they)",
+    subtitle: "Hi, I'm Astra! I code, make music, and play games. (he/they)",
     links: [
         //{
         //    icon: <Ion name="caret-forward-circle" />,
