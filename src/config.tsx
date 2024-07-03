@@ -52,6 +52,13 @@ export const config: Config = {
             link: "https://anthrocon.astrabun.com/"
         },
         {
+            icon: <Ion name="musical-notes" />,
+            name: "[ANTHROCON 2024] the rush(ed) ac24 room party mix",
+            description: "a playlist/mix for your room party ;) rushed to put this together, so tbh not every transition is as good as I'd want, but it's a decent mix imo",
+            // link: ref
+            link: "https://www.mixcloud.com/ASTRABUN/the-rushed-ac24-room-party-mix/"
+        },
+        {
             icon: <Ion name="image" />,
             name: "Reference Sheet",
             description: "The Bun!",
