@@ -44,20 +44,20 @@ export const config: Config = {
         //    // link: ref
         //    link: "https://go.astrabun.com/pmr"
         //}, // FIXME: TEMPORARY, REMOVE ABOVE AFTER VIDEO HAS BEEN UP FOR A LITTLE
-        {
-            icon: <Ion name="map" />,
-            name: "[ANTHROCON 2024] Find My Astra",
-            description: "Lil web app to get an idea of where I am if you're looking for me! (valid only while at AC2024)",
-            // link: ref
-            link: "https://anthrocon.astrabun.com/"
-        },
-        {
-            icon: <Ion name="musical-notes" />,
-            name: "[ANTHROCON 2024] the rush(ed) ac24 room party mix",
-            description: "a playlist/mix for your room party ;) rushed to put this together, so tbh not every transition is as good as I'd want, but it's a decent mix imo",
-            // link: ref
-            link: "https://www.mixcloud.com/ASTRABUN/the-rushed-ac24-room-party-mix/"
-        },
+        // {
+        //     icon: <Ion name="map" />,
+        //     name: "[ANTHROCON 2024] Find My Astra",
+        //     description: "Lil web app to get an idea of where I am if you're looking for me! (valid only while at AC2024)",
+        //     // link: ref
+        //     link: "https://anthrocon.astrabun.com/"
+        // },
+        // {
+        //     icon: <Ion name="musical-notes" />,
+        //     name: "[ANTHROCON 2024] the rush(ed) ac24 room party mix",
+        //     description: "a playlist/mix for your room party ;) rushed to put this together, so tbh not every transition is as good as I'd want, but it's a decent mix imo",
+        //     // link: ref
+        //     link: "https://www.mixcloud.com/ASTRABUN/the-rushed-ac24-room-party-mix/"
+        // },
         {
             icon: <Ion name="image" />,
             name: "Reference Sheet",
